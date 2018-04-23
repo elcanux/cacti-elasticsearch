@@ -16,9 +16,8 @@ How to install
 Tested with
 ----------
 
-Cacti v0.8.8f
-
-Elasticsearch v5.5.6 
+- Cacti v0.8.8f
+- Elasticsearch v5.5.6 
 
 Samples
 -------
