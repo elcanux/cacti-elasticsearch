@@ -1,12 +1,3 @@
-# 
-
-# Howto Install
-<pre>
-# apt-get install 
-# copy elasticsearch.pl to cacti, maybe to /usr/share/cacti/site/scripts/*
-# chmod 755 elasticsearch.pl
-</pre>
-
 Cacti Elasticsearch
 ===================
 
@@ -20,7 +11,6 @@ How to install
  4. Make sure the owner & executable `chmod 755 elasticsearch.pl`
 
 **IMPORTANT**: You need to recompile `spine` with `./configure --with-results-buffer=2048`.
-
 
 
 Samples
