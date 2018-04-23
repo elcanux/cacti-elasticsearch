@@ -13,6 +13,12 @@ How to install
 **IMPORTANT**: You need to recompile `spine` with `./configure --with-results-buffer=2048`.
 
 
+Tested with
+----------
+
+Cacti v0.8.8f
+Elasticsearch v5.5.6 
+
 Samples
 -------
 
