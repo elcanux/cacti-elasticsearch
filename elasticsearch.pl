@@ -4,7 +4,6 @@ use strict;
 use warnings;
 
 use LWP::UserAgent;
-use Data::Dumper;
 use JSON::XS;
 use Storable;
 
