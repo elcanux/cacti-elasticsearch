@@ -4,6 +4,7 @@ use strict;
 use warnings;
 
 use LWP::UserAgent;
+use Data::Dumper;
 use JSON::XS;
 use Storable;
 
@@ -640,9 +641,9 @@ sub request {
 
         my $data;
         my $elapsed = 1000;
-        my $file    = '/tmp/' . $self->{host} . '_' . $self->{method} . '_elasticsearch.data';
+        my $file    = '/tmp/' . $self->{host} . '_' . $api . '_elasticsearch.data';
         $data = retrieve($file) if ( -e $file );
-        if ( $data && $data->{timestamp} ) {
+        if ( $data && ref $data eq 'HASH' && $data->{timestamp} ) {
             $elapsed = time() - $data->{timestamp};
         }
 
@@ -664,7 +665,9 @@ sub request {
             my $resp = $ua->request($req);
             if ( $resp->is_success ) {
                 $data = decode_json( $resp->decoded_content );
-                $data->{timestamp} = time();
+                if ( ref $data eq 'HASH' ) {
+                    $data->{timestamp} = time();
+                }
                 store( $data, $file );
             }
             else {
