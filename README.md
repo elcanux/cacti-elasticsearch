@@ -7,7 +7,7 @@ How to install
 
  1. Install dependencies `apt-get install libwww-perl libjson-xs-perl`
  2. Install addon data_input_field https://forums.cacti.net/viewtopic.php?f=5&t=42802
- 3. Import `xxx.xml` to Cacti
+ 3. Import template `cacti_host_template_elasticsearch-*.xml` to Cacti
  4. Copy `elasticsearch.pl` to `scripts` (maybe /usr/share/cacti/site/scripts/)
  5. Make sure the owner & executable `chmod 755 elasticsearch.pl`
 
