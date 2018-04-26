@@ -1,6 +1,6 @@
 Cacti Elasticsearch
 ===================
-
+Inspired by [Busindre/ElasticSearch-Cacti](https://github.com/Busindre/ElasticSearch-Cacti) which is out of date with the latest version of Elasticsearch
 
 How to install
 --------------
