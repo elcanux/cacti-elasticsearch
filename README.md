@@ -23,4 +23,10 @@ Tested with
 Samples
 -------
 
-SOON...
+![Oups image not found](https://github.com/elcanux/cacti-elasticsearch/blob/master/examples/active_node.png)
+![Oups image not found](https://github.com/elcanux/cacti-elasticsearch/blob/master/examples/cluster_pending_tasks.png)
+![Oups image not found](https://github.com/elcanux/cacti-elasticsearch/blob/master/examples/cluster_shards_operations.png)
+![Oups image not found](https://github.com/elcanux/cacti-elasticsearch/blob/master/examples/cluster_status.png)
+![Oups image not found](https://github.com/elcanux/cacti-elasticsearch/blob/master/examples/node_file_system_count_read_write.png)
+![Oups image not found](https://github.com/elcanux/cacti-elasticsearch/blob/master/examples/node_file_system_size.png)
+![Oups image not found](https://github.com/elcanux/cacti-elasticsearch/blob/master/examples/total_shards.png)
